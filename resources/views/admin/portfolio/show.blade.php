@@ -4,7 +4,7 @@
     <div class="container my-ctn">
         <span class="d-inline">
             <h1>Portfolio {{ $portfolio->name }} {{ $portfolio->surname }}</h1>
-            <h4>{{ $portfolio->type->type }}</h4>
+            <h4><span class="badge bg-secondary">{{ $portfolio->type->type }}</span></h4>
             <a href="{{ route('admin.portfolios.edit', $portfolio) }}" class="btn btn-dark"><i
                     class="fa-solid fa-pencil"></i></a>
             <form class="d-inline" action="{{ route('admin.portfolios.destroy', $portfolio) }}" method="POST"
