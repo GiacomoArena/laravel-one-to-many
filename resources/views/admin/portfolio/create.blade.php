@@ -27,6 +27,18 @@
         </div>
 
         <div class="mb-3">
+            <label for="type_id" class="form-label">Type</label>
+            <select class="form-select" name="type_id">
+                <option selected>Select Type</option>
+                @foreach ($types as $type)
+                <option value="{{$type->id}}">{{$type->type}}</option>
+                @endforeach
+            </select>
+        </div>
+
+
+
+        <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input id="name" class="form-control @error('name') is-invalid @enderror" name="name" type="text"
                 placeholder="Name" value="{{ old('name') }}">

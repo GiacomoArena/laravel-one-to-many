@@ -12,6 +12,7 @@ class Portfolio extends Model
 
     protected $fillable = [
         'title',
+        'type_id',
         'slug',
         'name',
         'surname',

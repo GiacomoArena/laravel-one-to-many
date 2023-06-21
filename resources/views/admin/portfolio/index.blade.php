@@ -20,7 +20,7 @@
                         <td>{{ $portfolio->id }}</td>
                         <td>{{ $portfolio->name }}</td>
                         <td>{{ $portfolio->surname }}</td>
-                        <td>{{ $portfolio->type->type }}</td>
+                        <td>{{ $portfolio->type?->type }}</td>
                         <td>
                             <a href="{{ route('admin.portfolios.show', $portfolio) }}" class="btn btn-dark"><i
                                     class="fa-solid fa-eye"></i></a>
