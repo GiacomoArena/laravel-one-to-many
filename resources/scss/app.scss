@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/bootstrap';
+
+main{
+    height: calc(100vh - 70px);
+}
+.my-navbar{
+    height: 70px !important;
+}
+
+aside{
+    height: 100%;
+    width: 200px;
+    li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(20, 20, 20, 0.973);
+        transition: all 0.5s;
+        &:hover{
+            color: rgba(59, 59, 59, 0.973);
+            text-decoration: underline;
+        }
+    }
+}
+.my-ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 200px;
+        border-radius: 10px;
+    }
+}
+nav{
+    img.logo{
+        margin: 5px;
+        width: 30px;
+        border-radius: 50%;
+        filter: grayscale(1);
+    }
+}

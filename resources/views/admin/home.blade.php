@@ -1,0 +1,10 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <h1>Home</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quam exercitationem facere quibusdam corporis mollitia explicabo alias rerum dolor nesciunt eum, quas, nam aliquid debitis, porro aperiam labore consequatur eveniet. Quod quas iure aspernatur nulla. Consequuntur rem a nesciunt sequi atque neque mollitia sed officia culpa quasi vel iste eveniet eaque quia numquam, nobis natus dolorum laboriosam pariatur recusandae, modi magni? Hic aliquam aspernatur earum deserunt? Expedita quam, animi inventore eligendi ullam aspernatur magni eveniet explicabo necessitatibus accusamus quo quidem quas, totam aut fuga quisquam natus voluptate unde sapiente autem asperiores dignissimos amet. Ea blanditiis totam similique unde ipsam doloribus, quod reprehenderit adipisci dolore modi odit repellendus fugit fugiat voluptas fuga suscipit laudantium ullam laborum excepturi, officiis facilis quibusdam ab. Est magnam enim officiis itaque tempore aperiam excepturi sapiente reiciendis in labore delectus, veritatis dolor quas quod. Praesentium veritatis veniam excepturi impedit repellat cum laudantium voluptate, et numquam ea facere, repudiandae quia odit tenetur doloribus nisi laboriosam, nam animi. Architecto modi itaque ad iure autem quisquam dolorem magni aperiam reprehenderit reiciendis. Sunt sit asperiores at, delectus, ipsam, quo quasi temporibus numquam recusandae animi corporis veniam. Illo illum omnis aliquid distinctio cupiditate aliquam, officia sint hic a deleniti sapiente consectetur mollitia dolores qui tempora? Non, quo minus magni, tenetur inventore, harum beatae voluptatem mollitia ad aliquam architecto. Illum praesentium repellendus voluptatibus error molestias doloribus asperiores temporibus. Corporis aperiam consectetur enim maiores non, sequi laudantium, iusto error pariatur voluptate corrupti! Praesentium quibusdam inventore assumenda? Magnam ad facilis perspiciatis, qui pariatur commodi obcaecati.
+    </p>
+</div>
+@endsection
