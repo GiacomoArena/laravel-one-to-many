@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Portfolio;
+use App\Models\Type;
 
 class PortfolioTbaleSeeder extends Seeder
 {
@@ -16,6 +17,7 @@ class PortfolioTbaleSeeder extends Seeder
     public function run()
     {
         $new_portfolio = new Portfolio();
+        $new_portfolio->type_id = Type::inRandomOrder()->first()->id ;
         $new_portfolio->title = 'Questo é il titolo del mio Portfolio';
         $new_portfolio->slug = Portfolio::generateSlug( $new_portfolio->title);
         $new_portfolio->name = 'Giacomo';
