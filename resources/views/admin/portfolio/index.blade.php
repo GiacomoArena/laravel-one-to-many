@@ -10,6 +10,7 @@
                     <th scope="col">Id</th>
                     <th scope="col">Name</th>
                     <th scope="col">Surname</th>
+                    <th scope="col">Type</th>
                     <th scope="col"> </th>
                 </tr>
             </thead>
@@ -19,6 +20,7 @@
                         <td>{{ $portfolio->id }}</td>
                         <td>{{ $portfolio->name }}</td>
                         <td>{{ $portfolio->surname }}</td>
+                        <td>{{ $portfolio->type->type }}</td>
                         <td>
                             <a href="{{ route('admin.portfolios.show', $portfolio) }}" class="btn btn-dark"><i
                                     class="fa-solid fa-eye"></i></a>

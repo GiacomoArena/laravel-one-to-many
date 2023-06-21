@@ -20,6 +20,7 @@ class TypeTableSeeder extends Seeder
             $new_type = new Type();
             $new_type->type = $type;
             $new_type->slug = Type::generateSlug($new_type->type);
+            $new_type->save();
 
         }
     }
